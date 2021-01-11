@@ -88,7 +88,7 @@ document.getElementById("startstop").innerHTML="スタート";
 	  var datalist = {acc_x:x,acc_y:y,acc_z:z/*,acc_gx:gx,acc_gy:gy,acc_gz:gz,rr_a:ra,rr_b:rb,rr_g:rg*/}
 
 	  //ローカルストレージに記録
-	  localStorage.setItem(seconds, JSON.stringify(datalist));
+	  localStorage.setItem(time_unix, JSON.stringify(datalist));
 	  
 
 	  function printValue(id, value){
