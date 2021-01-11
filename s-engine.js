@@ -47,7 +47,7 @@ document.getElementById("startstop").innerHTML="スタート";
 	  var date = new Date() ;
 	  var time_unix = date.getTime() ;
 	  var seconds = ("0"+date.getSeconds()).slice(-2);
-	  printValue("unixtime", seconds);
+	  printValue("unixtime", time_unix);
 	  //オリジナル
 	  //var s_time=null;
 	  //s_time=new Date();
